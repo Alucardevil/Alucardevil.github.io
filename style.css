@@ -1,0 +1,33 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header img {
+    border-radius: 50%;
+    max-width: 200px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.about {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
