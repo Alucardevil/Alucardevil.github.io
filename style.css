@@ -3,8 +3,38 @@ body, h1, h2, p {
     padding: 0;
 }
 
+body {
+    font-size: 16px;
+}
+
+
+@media (min-width: 640px) {
+   
+    body {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1920px) {
+   
+    body {
+        font-size: 20px; 
+    }
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+
 header {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #3498db;
     color: white;
     padding: 20px;
